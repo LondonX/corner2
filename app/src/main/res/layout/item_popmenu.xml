@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listitem_pop_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/listitem_pop_imgArrowLeft"
+        android:layout_width="12dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/img_arrow_left" />
+
+    <TextView
+        android:id="@+id/listitem_pop_tv"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:singleLine="true"
+        android:text="@string/test_long"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/listitem_pop_imgArrow"
+        android:layout_width="12dp"
+        android:layout_height="16dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/img_arrow_right" />
+
+</LinearLayout>

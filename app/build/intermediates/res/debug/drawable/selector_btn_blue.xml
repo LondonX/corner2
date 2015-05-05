@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape android:shape="rectangle">
+            <solid android:color="#0099CC" />
+
+            <padding android:bottom="4dp" android:left="8dp" android:right="8dp" android:top="4dp" />
+        </shape></item>
+    <item android:state_enabled="true"><shape android:shape="rectangle">
+            <solid android:color="#33B5E5" />
+
+            <padding android:bottom="4dp" android:left="8dp" android:right="8dp" android:top="4dp" />
+        </shape></item>
+
+</selector><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/drawable/selector_btn_blue.xml -->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_search_root"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".SearchActivity">
+
+    <include layout="@layout/toolbar_root"/>
+
+    <LinearLayout
+        android:id="@+id/activity_search_linearHot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/activity_search_tvHot"
+            style="@style/CornerView.TextView.Medium.DarkGray.Readable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/str_search_hot"/>
+
+        <View
+            android:id="@+id/activity_search_div0"
+            style="@style/CornerView.Divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+
+        <com.ljmob.corner.view.UnscrollableGridView
+            android:id="@+id/activity_search_gvHot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="8dp"
+            android:listSelector="@drawable/selector_btn_default"
+            android:numColumns="5"
+            android:padding="8dp"
+            android:verticalSpacing="12dp"
+            tools:listitem="@layout/item_hotsearch"/>
+    </LinearLayout>
+
+    <com.ljmob.corner.view.CustomListView
+        android:id="@+id/activity_search_lvResult"
+        android:layout_width="match_parent"
+        android:scrollbarThumbVertical="@drawable/shape_scrollbar"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_shop_simple">
+    </com.ljmob.corner.view.CustomListView>
+
+</LinearLayout><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/layout/activity_search.xml -->

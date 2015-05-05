@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_editinfo_root"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".EditInfoActivity">
+
+    <include layout="@layout/toolbar_root"/>
+
+    <RelativeLayout
+        android:id="@+id/activity_editinfo_rlHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/activity_editinfo_imgHead"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/img_head_default"/>
+
+        <TextView
+            android:id="@+id/activity_editinfo_tvTouch"
+            android:layout_width="98dp"
+            android:layout_height="26dp"
+            android:layout_alignBottom="@+id/activity_editinfo_imgHead"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/img_bg_change_img"
+            android:gravity="center_horizontal"
+            android:paddingTop="2dp"
+            android:text="@string/str_change_img"
+            android:textColor="#FFF"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/activity_editinfo_div0"
+        style="@style/CornerView.Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <LinearLayout
+        android:id="@+id/activity_editinfo_linearName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/activity_editinfo_tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_name"
+            android:textSize="16sp"/>
+
+        <!--android:background="@drawable/abc_edit_text_material"-->
+        <!--android:textSize="16sp"-->
+        <!--android:padding="6dp"-->
+        <!--android:gravity="left|top"-->
+        <EditText
+            style="@style/Widget.AppCompat.EditText"
+            android:id="@+id/activity_editinfo_etName"
+            android:textColor="@color/gray_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_name"
+            android:singleLine="true">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_editinfo_linearSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:gravity="center_vertical"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/activity_editinfo_tvSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sex"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:id="@+id/activity_editinfo_linearSexMen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/activity_editinfo_rbSexMen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="true"/>
+
+            <ImageView
+                android:id="@+id/activity_editinfo_imgSexMen"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/img_sex_man"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_editinfo_linearSexFemal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/activity_editinfo_rbSexFemal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="32dp"/>
+
+            <ImageView
+                android:id="@+id/activity_editinfo_imgSexFemal"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/img_sex_femal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_editinfo_linearRelat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/activity_editinfo_tvRelat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_relat"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/activity_editinfo_imgRelatQQ"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/img_default"/>
+
+        <ImageView
+            android:id="@+id/activity_editinfo_imgRelatWeibo"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/img_default"/>
+
+        <ImageView
+            android:id="@+id/activity_editinfo_imgRelatWeixin"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="@color/img_default"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_editinfo_linearSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/activity_editinfo_tvSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sign"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/activity_editinfo_etSign"
+            style="@style/CornerView.EditText.Translate"
+            android:textColor="@color/gray_dark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="@string/hint_sign"
+            android:minLines="3"
+            android:textSize="16sp">
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_editinfo_tvMax"
+        style="@style/CornerView.TextView.Small.LightGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:gravity="right"
+        android:text="@string/test_max"/>
+
+</LinearLayout><!-- From: file:/C:/Users/LondonX/Documents/workspace/corner2/app/src/main/res/layout/activity_editinfo.xml -->

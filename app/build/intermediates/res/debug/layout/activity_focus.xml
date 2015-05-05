@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_focus_root"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/toolbar_root"/>
+
+    <ListView
+        android:id="@+id/activity_focus_lv"
+        android:layout_width="match_parent"
+        android:scrollbarThumbVertical="@drawable/shape_scrollbar"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_topics">
+    </ListView>
+
+</LinearLayout><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/layout/activity_focus.xml -->

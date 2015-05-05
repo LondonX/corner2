@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_topic_root"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/toolbar_root"/>
+
+    <com.ljmob.corner.view.CustomListView
+        android:id="@+id/activity_topic_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbarThumbVertical="@drawable/shape_scrollbar"
+        tools:listheader="@layout/head_topic"
+        tools:listitem="@layout/item_topiccomments">
+    </com.ljmob.corner.view.CustomListView>
+
+    <!-- 有我的时文字用红色@color/red，图片改成红色 -->
+
+    <LinearLayout
+        android:id="@+id/activity_topic_linearPraiseAndComm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:minHeight="25dp"
+        android:translationZ="@dimen/toolbar_z"
+        android:background="@color/gray_div"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/activity_topic_linearPraise"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:background="@drawable/selector_btn_default"
+            android:padding="12dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/activity_topic_imgPraiseLinear"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/img_praise_default"/>
+
+            <TextView
+                android:id="@+id/activity_topic_tvPraiseLinear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/test_num"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_topic_linearComm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:background="@drawable/selector_btn_default"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/activity_topic_imgCommLinear"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/img_comm_default"/>
+
+            <TextView
+                android:id="@+id/activity_topic_tvCommLinear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/test_num"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_topic_linearOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationZ="@dimen/toolbar_z"
+        android:background="@color/gray_div"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp">
+
+        <ImageView
+            android:id="@+id/activity_topic_imgHead"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/selector_btn_default"
+            android:src="@drawable/img_head_default"/>
+
+        <EditText
+            android:id="@+id/activity_topic_etComment"
+            style="@style/CornerView.EditText.Line"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:hint="@string/hint_insert_comment2"
+            android:padding="6dp"/>
+
+        <ImageView
+            android:id="@+id/activity_topic_imgEmoji"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="8dp"
+            android:visibility="gone"
+            android:background="@drawable/selector_btn_default"
+            android:padding="6dp"
+            android:src="@drawable/img_emoji"/>
+
+        <TextView
+            android:id="@+id/activity_topic_btnSend"
+            style="@style/CornerView.Button.Small.Blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_send"/>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/layout/activity_topic.xml -->

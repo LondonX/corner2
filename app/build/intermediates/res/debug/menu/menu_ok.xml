@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_ok_ok"
+        android:icon="@drawable/ic_menu_ok"
+        app:showAsAction="always"
+        android:title="@string/str_ok">
+    </item>
+
+</menu><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/menu/menu_ok.xml -->

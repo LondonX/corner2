@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listitem_fs_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/listitem_fs_img"
+        android:layout_width="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:translationZ="2dp"
+        android:layout_height="190dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:translationZ="2dp"
+        android:id="@+id/listitem_fs_linearDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/listitem_fs_img"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/listitem_fs_tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="64dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/test_long"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/listitem_fs_tvDetail"
+            style="@style/CornerView.TextView.Medium.DarkGray.Readable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="@string/test_long"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/listitem_fs_tvDiscount"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignBottom="@+id/listitem_fs_img"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-28dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/shape_round_red"
+        android:gravity="center"
+        android:text="@string/str_discount"
+        android:textColor="#FFF"
+        android:translationZ="8dp"
+        android:textSize="19sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

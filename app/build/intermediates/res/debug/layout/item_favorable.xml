@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearitem_fav_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/linearitem_fav_tvType"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/selector_favorabletype_ring"
+        android:gravity="center"
+        android:text="@string/test_one"
+        android:textColor="#FFF"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/linearitem_fav_tvContent"
+        style="@style/CornerView.TextView.Medium.DarkGray.Readable"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:text="@string/test_long" />
+
+    <ImageView
+        android:id="@+id/linearitem_fav_imgGo"
+        android:layout_width="6dp"
+        android:layout_height="15dp"
+        android:src="@drawable/img_arrow_right" />
+
+</LinearLayout><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/layout/item_favorable.xml -->

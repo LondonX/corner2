@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearitem_oc_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingBottom="6dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="6dp" >
+
+    <ImageView
+        android:id="@+id/linearitem_oc_imgHead"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/selector_btn_default"
+        android:src="@drawable/img_head_default" />
+
+    <TextView
+        android:id="@+id/linearitem_oc_tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearitem_oc_imgHead"
+        android:singleLine="true"
+        android:text="@string/test_long"
+        android:textSize="14sp" />
+
+    <RatingBar
+        android:id="@+id/linearitem_oc_rbMyRate"
+        style="@style/CornerView.Ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/linearitem_oc_imgHead"
+        android:layout_toRightOf="@+id/linearitem_oc_imgHead"
+        android:isIndicator="true"
+        android:numStars="5" />
+
+    <TextView
+        android:id="@+id/linearitem_oc_tvFloor"
+        style="@style/CornerView.TextView.Small.LightGray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearitem_oc_rbMyRate"
+        android:layout_alignParentRight="true"
+        android:text="@string/test_floor" />
+
+    <EditText
+        android:id="@+id/linearitem_oc_etComment"
+        style="@style/CornerView.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearitem_oc_rbMyRate"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearitem_oc_rbMyRate"
+        android:layout_marginTop="6dp"
+        android:ems="10"
+        android:hint="@string/hint_insert_comment"
+        android:inputType="none"
+        android:minLines="2" />
+
+    <LinearLayout
+        android:id="@+id/linearitem_oc_linearPic"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_alignLeft="@+id/linearitem_oc_etComment"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearitem_oc_etComment"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageView
+            android:id="@+id/linearitem_oc_imgPic0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/img_default" />
+
+        <ImageView
+            android:id="@+id/linearitem_oc_imgPic1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@color/img_default" />
+
+        <ImageView
+            android:id="@+id/linearitem_oc_imgPic2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:background="@color/img_default" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/linearitem_oc_tvDate"
+        style="@style/CornerView.TextView.Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/linearitem_oc_linearPic"
+        android:layout_below="@+id/linearitem_oc_linearPic"
+        android:layout_marginTop="6dp"
+        android:text="@string/test_time_date" />
+
+</RelativeLayout><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/layout/item_othercomments.xml -->

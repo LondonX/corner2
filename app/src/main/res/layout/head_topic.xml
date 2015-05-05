@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/listhead_topic_linearRoot"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFF"
+              android:orientation="vertical"
+              android:paddingBottom="8dp"
+              android:paddingTop="8dp">
+
+    <RelativeLayout
+        android:id="@+id/listhead_topic_rlTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <ImageView
+            android:id="@+id/listhead_topic_imgHeadPoster"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/selector_btn_default"
+            android:src="@drawable/img_head_default"/>
+
+        <TextView
+            android:id="@+id/listhead_topic_tvNamePoster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/listhead_topic_imgHeadPoster"
+            android:maxWidth="140dp"
+            android:singleLine="true"
+            android:text="@string/test_long"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/listhead_topic_tvTime"
+            style="@style/CornerView.TextView.Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/listhead_topic_imgHeadPoster"
+            android:layout_marginBottom="6dp"
+            android:layout_toRightOf="@+id/listhead_topic_imgHeadPoster"
+            android:text="@string/test_time_ago"/>
+
+        <TextView
+            android:id="@+id/listhead_topic_tvFlagPoster"
+            style="@style/CornerView.TextView.Small.LightGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/listhead_topic_tvNamePoster"
+            android:layout_alignBottom="@+id/listhead_topic_tvNamePoster"
+            android:layout_alignParentRight="true"
+            android:text="@string/test_flag_poster"/>
+
+        <ImageView
+            android:id="@+id/listhead_topic_imgSex"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/listhead_topic_tvNamePoster"
+            android:layout_alignTop="@+id/listhead_topic_tvNamePoster"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@+id/listhead_topic_tvNamePoster"
+            android:src="@drawable/img_sex_femal"/>
+
+        <TextView
+            android:id="@+id/listhead_topic_tvLv"
+            style="@style/CornerView.TextView.Small.LightGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/listhead_topic_tvNamePoster"
+            android:layout_toRightOf="@+id/listhead_topic_imgSex"
+            android:text="@string/test_lv"/>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/listhead_topic_div0"
+        style="@style/CornerView.Divider"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_height="1px"/>
+    <!-- “阅读”时显示这个，gone掉 listhead_topic_rlTopic和listhead_topic_div0 -->
+
+    <LinearLayout
+        android:id="@+id/listhead_topic_linearRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/listhead_topic_tvReadTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/test_long"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/listhead_topic_tvReadTime"
+            style="@style/CornerView.TextView.Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/test_time_ago"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/listhead_topic_tvContent"
+        style="@style/CornerView.TextView.Medium.DarkGray.Readable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/test_long"/>
+
+    <!-- android:background="@drawable/selector_gallery_small_bg" -->
+
+    <LinearLayout
+        android:id="@+id/listhead_topic_linearPics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"/>
+
+    <View
+        android:id="@+id/listhead_topic_gap0"
+        style="@style/CornerView.Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+    <LinearLayout
+        android:id="@+id/listhead_topic_linearHeadOC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/listhead_topic_textOC"
+            style="@style/CornerView.TextView.Medium.DarkGray.Readable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxWidth="220dp"
+            android:singleLine="true"
+            android:text="@string/test_long"/>
+
+        <TextView
+            android:id="@+id/listhead_topic_tvCount"
+            style="@style/CornerView.TextView.Small.LightGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="@string/test_praise_ell"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listitem_cato_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/listitem_cato_tvCato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:text="@string/str_shopping"
+        android:textColor="@color/gray_dark"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/listitem_cato_div"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_div" />
+
+    <com.ljmob.corner.view.UnscrollableGridView
+        android:id="@+id/listitem_cato_gvCato"
+        style="@style/CornerView.GridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:horizontalSpacing="12dp"
+        android:numColumns="4"
+        android:verticalSpacing="24dp" />
+
+</LinearLayout><!-- From: file:/C:/Users/LondonX/Documents/workspace/corner2/app/src/main/res/layout/item_cato.xml -->

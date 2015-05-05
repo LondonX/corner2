@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/activity_main_rlMainDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/activity_main_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <LinearLayout
+            android:id="@+id/activity_main_linearTab"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tabs_height"
+            android:layout_marginTop="?android:attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:translationZ="@dimen/toolbar_z"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/activity_main_rlFavor"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/activity_main_tvFavor"
+                    style="@style/CornerView.TextView.Tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_favor"/>
+
+                <View
+                    android:id="@+id/activity_main_viewFavor"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/red_tab"
+                    android:layout_height="@dimen/corner_indicator_h"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/activity_main_rlTopic"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/activity_main_tvTopic"
+                    style="@style/CornerView.TextView.Tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.8"
+                    android:text="@string/tab_topic"/>
+
+                <View
+                    android:id="@+id/activity_main_viewTopic"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/red_tab"
+                    android:visibility="invisible"
+                    android:layout_height="@dimen/corner_indicator_h"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <include layout="@layout/toolbar_root"/>
+
+        <FrameLayout
+            android:id="@+id/activity_main_flAddTopic"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="18dp"
+            android:background="@drawable/shape_round_red"
+            android:translationZ="8dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/activity_main_imgAddTopic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="18dp"
+                android:src="@drawable/img_add_topic"
+                android:visibility="visible"/>
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <!-- android:layout_gravity="left" -->
+
+    <ScrollView
+        android:id="@+id/activity_main_svDrawer"
+        android:layout_width="304dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#FFF">
+
+        <LinearLayout
+            android:id="@+id/activity_main_linearDrawer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.DrawerLayout><!-- From: file:/C:/Users/LondonX/Documents/workspace/corner2/app/src/main/res/layout/activity_main.xml -->

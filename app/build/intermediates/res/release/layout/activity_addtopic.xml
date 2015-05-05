@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_addtopic_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/activity_addtopic_rlRoot"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/selector_addtopic_white"
+        android:minHeight="160dp" >
+
+        <EditText
+            android:id="@+id/activity_addtopic_etTitle"
+            style="@style/CornerView.EditText.Translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/activity_addtopic_imgClose"
+            android:ems="10"
+            android:hint="@string/hint_share_title"
+            android:textSize="16sp"
+            android:textStyle="bold" >
+
+            <requestFocus />
+        </EditText>
+
+        <ScrollView
+            android:id="@+id/activity_addtopic_svContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/activity_addtopic_rlOption"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/activity_addtopic_div0"
+            android:layout_below="@+id/activity_addtopic_div0"
+            android:layout_marginLeft="10dp" >
+
+            <LinearLayout
+                android:id="@+id/activity_addtopic_linearRoot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/activity_addtopic_etContent"
+                    style="@style/CornerView.EditText.Translate"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/hint_share_content"
+                    android:minLines="5"
+                    android:textSize="14sp" >
+                </EditText>
+
+                <HorizontalScrollView
+                    android:id="@+id/activity_addtopic_svContentImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="360dp" >
+
+                    <LinearLayout
+                        android:id="@+id/activity_addtopic_linearImgRoot"
+                        android:layout_width="wrap_content"
+                        android:minWidth="280dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/activity_addtopic_imgClose"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/selector_btn_default"
+            android:padding="14dp"
+            android:src="@drawable/img_x" />
+
+        <View
+            android:id="@+id/activity_addtopic_div0"
+            style="@style/CornerView.Divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/activity_addtopic_etTitle"
+            android:layout_margin="8dp" />
+
+        <RelativeLayout
+            android:id="@+id/activity_addtopic_rlOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/selector_addtopic_gray" >
+
+            <ImageView
+                android:id="@+id/activity_addtopic_imgPic"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/selector_btn_default"
+                android:padding="14dp"
+                android:src="@drawable/img_camera" />
+
+            <ImageView
+                android:id="@+id/activity_addtopic_imgSound"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignTop="@+id/activity_addtopic_imgPic"
+                android:layout_marginLeft="32dp"
+                android:layout_toRightOf="@+id/activity_addtopic_imgPic"
+                android:src="@drawable/img_recorder"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/activity_addtopic_imgEmoji"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/activity_addtopic_imgPic"
+                android:background="@drawable/selector_btn_default"
+                android:padding="14dp"
+                android:src="@drawable/img_emoji" />
+
+            <TextView
+                android:id="@+id/activity_addtopic_tvCommit"
+                style="@style/CornerView.Button.Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:text="@string/btn_commit" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/activity_addtopic_gridEmoji"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#FFF"
+        android:listSelector="@drawable/selector_btn_default"
+        android:numColumns="6"
+        android:visibility="gone"
+        tools:listitem="@layout/item_emoji" >
+    </GridView>
+
+</LinearLayout><!-- From: file:/C:/Users/LondonX/Documents/workspace/corner2/app/src/main/res/layout/activity_addtopic.xml -->

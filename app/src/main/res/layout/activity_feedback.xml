@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/activity_feedback_root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <include layout="@layout/toolbar_root"/>
+
+    <EditText
+        android:id="@+id/activity_feedback_tvContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_root"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:hint="@string/hint_insert_contact"
+        android:singleLine="true">
+
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:id="@+id/activity_feedback_tvFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="16sp"
+        android:layout_below="@+id/activity_feedback_tvContact"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="46dp"
+        android:ems="10"
+        android:hint="@string/hint_insert_feedback"/>
+
+
+    <TextView
+        android:id="@+id/activity_feedback_tvQQ"
+        style="@style/CornerView.TextView.Medium.DarkGray.Readable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="52dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:padding="6dp"
+        android:text="@string/str_feed_qq"/>
+
+</RelativeLayout>

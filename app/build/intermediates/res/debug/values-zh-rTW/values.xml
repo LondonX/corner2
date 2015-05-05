@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values-zh-rTW/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"瀏覽首頁"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"向上瀏覽"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多選項"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"選擇應用程式"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查詢"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜尋查詢"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜尋"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查詢"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"語音搜尋"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"選擇分享對象"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"與「%s」分享"</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="activity_collect">收藏</string>
+    <string name="activity_editinfo">編輯資料</string>
+    <string name="activity_fd">優惠詳情</string>
+    <string name="activity_feedback">意見反饋</string>
+    <string name="activity_fit_shop">適用商戶</string>
+    <string name="activity_focus">關注的帖子</string>
+    <string name="activity_gallery">查看圖片</string>
+    <string name="activity_map">優惠商戶列表</string>
+    <string name="activity_mc">網友點評</string>
+    <string name="activity_moreshop">其他分店</string>
+    <string name="activity_msg">消息中心</string>
+    <string name="activity_otheruser">個人資料</string>
+    <string name="activity_reads">閱讀</string>
+    <string name="activity_relation">人際</string>
+    <string name="activity_search">搜索</string>
+    <string name="activity_settings">設置</string>
+    <string name="activity_shop">商戶詳情</string>
+    <string name="activity_topic">轉角</string>
+    <string name="activity_user">用戶中心</string>
+    <string name="app_name">角落</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="baidutieba">百度貼吧</string>
+    <string name="baidutieba_client_inavailable">目前您的百度貼吧版本過低或未安裝，需要安裝百度貼吧才能使用</string>
+    <string name="bluetooth">藍牙</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="btn_commit">發 布</string>
+    <string name="btn_focus">關 注</string>
+    <string name="btn_focus_cancel">取消關注</string>
+    <string name="btn_send">發 送</string>
+    <string name="btn_signin">簽 到</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/oks_strings.xml -->
+    <eat-comment/>
+    <string name="cancel">取消</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="dialog_add_chose_album">相冊</string>
+    <string name="dialog_add_chose_camera">相機</string>
+    <string name="dialog_add_chose_pic_title">選擇圖片</string>
+    <string name="dialog_add_exit_content">編輯的信息將不會被保存，是否放棄編輯？</string>
+    <string name="dialog_add_exit_title">放棄發帖</string>
+    <string name="dialog_add_focus">添加關注…</string>
+    <string name="dialog_cancel_focus">取消關注…</string>
+    <string name="dialog_disable_push">正在關閉消息推送</string>
+    <string name="dialog_enable_push">正在打開消息推送</string>
+    <string name="dialog_load">加載中…</string>
+    <string name="dialog_load_shop">正在加載其他分店…</string>
+    <string name="dialog_reply_comm">正在回複評論…</string>
+    <string name="dialog_search">正在搜索…</string>
+    <string name="dialog_send_comm">正在發表評論…</string>
+    <string name="dialog_send_topic">正在發送中…</string>
+    <string name="dialog_title_login">請選擇登錄方式</string>
+    <string name="dialog_update_content">現在要更新嗎</string>
+    <string name="dialog_update_no">否</string>
+    <string name="dialog_update_title">更新</string>
+    <string name="dialog_update_yes">是</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="douban">豆瓣</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">郵件</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="error_key">key驗證無效！ </string>
+    <string name="error_network">搜索失敗,請檢查網絡連接！ </string>
+    <string name="error_other">未知錯誤，請稍後重試!錯誤碼為</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="evernote">印象筆記</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebookmessenger">Facebook Messenger</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/oks_strings.xml -->
+    <eat-comment/>
+    <string name="finish">完成</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="google_plus_client_inavailable">Google+ 版本過低或者沒有安裝，需要升級或安裝Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="hint_insert_comment">請輸入評價內容</string>
+    <string name="hint_insert_comment2">來說兩句吧</string>
+    <string name="hint_insert_contact">請輸入您的微信/QQ/手機/Email</string>
+    <string name="hint_insert_feedback">請輸入您的建議</string>
+    <string name="hint_name">暱稱不能為空</string>
+    <string name="hint_share_content">分享內容</string>
+    <string name="hint_share_title">標題</string>
+    <string name="hint_sign">一句話介紹自己</string>
+    <string name="image_desc">圖片</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本過低或者沒有安裝，需要升級或安裝Instagram才能使用！</string>
+    <string name="instapager_email_or_password_incorrect">Email或密碼不正確</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/instapaper_strings.xml -->
+    <eat-comment/>
+    <string formatted="false" name="instapager_login_html"><![CDATA[
+<!DOCTYPE html>
+<html>
+<head>
+<meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">
+<meta content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" id=\"viewport\" name=\"viewport\">
+<meta content=\"yes\" name=\"apple-mobile-web-app-capable\">
+<title>%s</title>
+<style type=\"text/css\">
+body{margin:0;padding:0}
+.inputstyle {
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+    width:100%%;
+    height:44px;
+    color:#000;
+    background:0;
+    border:0;
+    font-size:16px;
+    outline: none;
+    -webkit-appearance:none
+}
+
+.btn {
+    width:90%%;
+    height:44px;
+    line-height:44px;
+    background:#A0C035;
+    border:0;
+    border-radius:4px;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    margin-top:15px;
+    display:block
+}
+.btn:disabled {
+    background: #dddddd;
+}
+.error {
+    color:red;
+}
+</style>
+</head>
+
+<body>
+<script type=\"text/javascript\">
+function login(form){
+    var u=form[\"u\"].value,p=form[\"p\"].value;
+    if(!u || !p)
+        return false;
+    form[\"s\"].disabled = true;
+    return true;
+}
+</script>
+<form style=\"margin-top:45px;\" action=\"%s\" metho=\"get\" onsubmit=\"return login(this);\">
+%s
+<div style=\"padding-left:15px;border-top:1px solid #E3E3E5;border-bottom:1px solid #E3E3E5;\">
+ <input type=\"hidden\" name=\"ID_SIGN\" value=\"OWELJSFPWECSFEW\"/>
+ <input class=\"inputstyle\" id=\"u\" name=\"u\" type=\"text\" value=\"%s\" placeholder=\"%s\" style=\"border-bottom:1px solid #E3E3E5;\"/>
+ <input class=\"inputstyle\" id=\"p\" name=\"p\" type=\"password\" placeholder=\"%s\"/>
+</div>
+<p><input style=\"margin:0 auto;\" type=\"submit\" name=\"s\" value=\"  %s  \" class=\"btn\"/></p>
+</form>
+</body>
+</html>
+]]></string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="instapaper">Instapaper</string>
+    <string name="instapaper_email">郵箱</string>
+    <string name="instapaper_login">登錄</string>
+    <string name="instapaper_logining">登錄中…</string>
+    <string name="instapaper_pwd">密碼</string>
+    <string name="kaixin">開心網</string>
+    <string name="kakaostory">KakaoStory</string>
+    <string name="kakaostory_client_inavailable">目前您的KakaoStory版本過低或未安裝，需要安裝KakaoStory才能使用</string>
+    <string name="kakaotalk">KakaoTalk</string>
+    <string name="kakaotalk_client_inavailable">目前您的KakaoTalk版本過低或未安裝，需要安裝KakaoTalk才能使用</string>
+    <string name="line">Line</string>
+    <string name="line_client_inavailable">目前您的Line版本過低或未安裝，需要安裝Line才能使用</string>
+    <string name="linkedin">領英</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/oks_strings.xml -->
+    <eat-comment/>
+    <string name="list_friends">%s的朋友</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="menu_collect">收藏</string>
+    <string name="menu_collect_cancel">取消收藏</string>
+    <string name="menu_edit">編輯</string>
+    <string name="menu_feedback">反饋</string>
+    <string name="menu_login_qq">QQ登錄</string>
+    <string name="menu_login_weibo">微博登錄</string>
+    <string name="menu_login_weixin">微信登錄</string>
+    <string name="menu_map">地圖</string>
+    <string name="menu_more">更多</string>
+    <string name="menu_msg">消息中心</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_settings">設置</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_topic_focused">關注的帖子</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="mingdao">明道</string>
+    <string name="mingdao_share_content">網頁分享</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/oks_strings.xml -->
+    <eat-comment/>
+    <string name="multi_share">圖文分享</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="neteasemicroblog">網易微博</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="no_result">對不起，沒有搜索到相關數據！ </string>
+    <string name="p2refresh_doing_end_refresh">加載中…</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新…</string>
+    <string name="p2refresh_end_click_load_more">點擊加載</string>
+    <string name="p2refresh_end_load_more">更多</string>
+    <string name="p2refresh_head_load_more">加載更多</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_refresh_lasttime">最近更新 : </string>
+    <string name="p2refresh_release_refresh">鬆開刷新</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本過低或者沒有安裝，需要升級或安裝Pinterest才能使用！</string>
+    <string name="pocket">Pocket</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/oks_strings.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh">下拉以刷新</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本過低或者沒有安裝，需要升級或安裝QQ才能使用！</string>
+    <string name="qzone">QQ空間</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/oks_strings.xml -->
+    <eat-comment/>
+    <string name="refreshing">正在刷新</string>
+    <string name="release_to_refresh">鬆開以刷新</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="renren">人人網</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="replace_lv"><p><font color="#000">Lv</font><font color="#B83022">3</font></p></string>
+    <string name="replace_reply"><p><font color="#000">Rep：</font><font color="@color/gray_dark">Con</font></p></string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/oks_strings.xml -->
+    <eat-comment/>
+    <string name="select_a_friend">請選擇一個朋友</string>
+    <string name="select_one_plat_at_least">請選擇目標平台</string>
+    <string name="shake2share">搖晃手機！</string>
+    <string name="share">分享</string>
+    <string name="share_canceled">分享已經取消</string>
+    <string name="share_completed">分享成功</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="share_error">分享失敗</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/oks_strings.xml -->
+    <eat-comment/>
+    <string name="share_failed">分享失敗</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="share_ok">分享成功</string>
+    <string name="share_qq">QQ</string>
+    <string name="share_qzone">QQ空間</string>
+    <string name="share_text0">我在“角落”上看到了在&lt;SHOP_LOCATION>的&lt;SHOP_NAME>優惠信息，感覺太好了，大家一起來看看吧！ ！ </string>
+    <string name="share_text1">&lt;FAVOR>有新優惠啦，來看看吧！ ！</string>
+    <string name="share_title">來自“角落”的分享</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/oks_strings.xml -->
+    <eat-comment/>
+    <string name="share_to">分享到</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="share_to_baidutieba">分享到百度貼吧</string>
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qq">分享到QQ</string>
+    <string name="share_to_qzone">分享到QQ空間</string>
+    <string name="share_to_qzone_default">來自%s的分享</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="share_weibo">微博</string>
+    <string name="share_weixin">微信</string>
+    <string name="share_weixin_scene">微信朋友圈</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/oks_strings.xml -->
+    <eat-comment/>
+    <string name="sharing">正在分享</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="shortmessage">信息</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐隨身看</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="str_camera">相機</string>
+    <string name="str_cato">類別</string>
+    <string name="str_change_img">更換頭像</string>
+    <string name="str_city_adcode">城市編碼:</string>
+    <string name="str_city_code">城市區號:</string>
+    <string name="str_city_name">城市名稱:</string>
+    <string name="str_city_recommand">推薦城市\n</string>
+    <string name="str_comment_my">我要評價</string>
+    <string name="str_comment_others">網友點評</string>
+    <string name="str_consult">商區</string>
+    <string name="str_corner">角落</string>
+    <string name="str_discount">折</string>
+    <string name="str_expand">展開全部</string>
+    <string name="str_favorable">優惠信息</string>
+    <string name="str_favorable_all">查看全部優惠</string>
+    <string name="str_favorable_content">優惠內容</string>
+    <string name="str_feed_qq">我們非常重視您在使用過程中的體驗和感受\n期待您的建設性意見： \nQQ群：379330048\n微信公眾號：corner-hk</string>
+    <string name="str_focus">關注</string>
+    <string name="str_focus_cancel">取消關注</string>
+    <string name="str_food">美食</string>
+    <string name="str_goto">到這去</string>
+    <string name="str_loading">正在加載</string>
+    <string name="str_loading_end">END</string>
+    <string name="str_loading_retry">重新加載</string>
+    <string name="str_location">位置：</string>
+    <string name="str_log_auth">正在驗證登錄</string>
+    <string name="str_log_fail">登錄失敗</string>
+    <string name="str_log_ing">正在登錄</string>
+    <string name="str_log_success">登錄成功</string>
+    <string name="str_login_qq">QQ</string>
+    <string name="str_login_wechat">微信</string>
+    <string name="str_login_weibo">微博</string>
+    <string name="str_map_stamp">地\n圖\n導\n航</string>
+    <string name="str_more">更多</string>
+    <string name="str_more_read">查看更多</string>
+    <string name="str_more_reply">更多3條回复</string>
+    <string name="str_more_shop">查看其他分店</string>
+    <string name="str_name">暱稱：</string>
+    <string name="str_ok">提交完成</string>
+    <string name="str_page_next">下一頁</string>
+    <string name="str_page_previous">上一頁</string>
+    <string name="str_phone">電話：</string>
+    <string name="str_pic_all">所有照片</string>
+    <string name="str_relat">關聯賬號：</string>
+    <string name="str_retry">重試</string>
+    <string name="str_search_error">非常抱歉\n未能搜索到相關商戶信息</string>
+    <string name="str_search_hint">搜索商戶</string>
+    <string name="str_search_hot">熱門搜索</string>
+    <string name="str_settings_clear">清理緩存</string>
+    <string name="str_settings_current">目前版本</string>
+    <string name="str_settings_exit">退出登錄</string>
+    <string name="str_settings_info">個人資料</string>
+    <string name="str_settings_msg">消息提醒</string>
+    <string name="str_settings_rate">給我們打分吧</string>
+    <string name="str_settings_reddot">新動態小圓點</string>
+    <string name="str_settings_update">檢查更新</string>
+    <string name="str_sex">性別：</string>
+    <string name="str_shop_fit">適用商戶</string>
+    <string name="str_shopping">購物</string>
+    <string name="str_sign">個人簽名：</string>
+    <string name="str_signed">已簽到</string>
+    <string name="str_sort">排序</string>
+    <string name="str_topic_read">閱讀</string>
+    <string name="str_uesage">使用方法：無需打印和下載，到商家處即可直接享用此優惠</string>
+    <string name="str_upload_pictrue">上傳圖片</string>
+    <string name="str_ver_current">當前版本</string>
+    <string name="tab_attent">關注</string>
+    <string name="tab_favor">熱門優惠</string>
+    <string name="tab_favor_coupon">優惠券</string>
+    <string name="tab_follower">粉絲</string>
+    <string name="tab_reply">回复</string>
+    <string name="tab_reply_my">我的回复</string>
+    <string name="tab_shop">商戶</string>
+    <string name="tab_topic">轉角</string>
+    <string name="tab_topic_my">我的主題</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="tencentweibo">騰訊微博</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="test"/>
+    <string name="test_attent"/>
+    <string name="test_count"/>
+    <string name="test_distance"/>
+    <string name="test_emoji"/>
+    <string name="test_flag_poster"/>
+    <string name="test_floor"/>
+    <string name="test_follower_plus"/>
+    <string name="test_long"/>
+    <string name="test_lv"/>
+    <string name="test_max"/>
+    <string name="test_num"/>
+    <string name="test_one"/>
+    <string name="test_praise"/>
+    <string name="test_praise_ell"/>
+    <string name="test_size"/>
+    <string name="test_tag"/>
+    <string name="test_time_ago"/>
+    <string name="test_time_date"/>
+    <string name="test_time_long"/>
+    <string name="test_time_reply"/>
+    <string name="toast_cancel_collect">取消收藏！ </string>
+    <string name="toast_cancel_focus">取消關注！ </string>
+    <string name="toast_end_load">沒有更多數據了</string>
+    <string name="toast_end_shop">沒有更多商戶了</string>
+    <string name="toast_end_sign">簽到成功！ </string>
+    <string name="toast_end_topic">沒有更多帖子</string>
+    <string name="toast_error_comm">評論內容不允許為空！ </string>
+    <string name="toast_error_content">內容不允許為空</string>
+    <string name="toast_error_location">12秒內還沒有定位成功，停止定位</string>
+    <string name="toast_error_market">你沒有安裝任何應用市場</string>
+    <string name="toast_error_merchant">暫未收錄分店信息 </string>
+    <string name="toast_error_name">暱稱不允許為空</string>
+    <string name="toast_error_net">連接超時！ </string>
+    <string name="toast_error_nullfeedback">以上兩項都不能為空</string>
+    <string name="toast_error_push">推送異常,請打開app嘗試</string>
+    <string name="toast_error_refresh">刷新失敗，請重試</string>
+    <string name="toast_error_reply">回复內容不允許為空</string>
+    <string name="toast_error_searchshop">沒有搜索到相應商戶</string>
+    <string name="toast_error_title">標題不能為空</string>
+    <string name="toast_img_error">圖片錯誤，請重新選擇</string>
+    <string name="toast_log_cancel">您取消了登錄</string>
+    <string name="toast_log_error">登錄失敗</string>
+    <string name="toast_log_net_exception">網絡異常,請重試</string>
+    <string name="toast_log_servce_exception">服務器異常,請重試</string>
+    <string name="toast_log_weixin">您沒有安裝微信，或微信的版本不支持登錄</string>
+    <string name="toast_no_weixin">您沒有安裝微信</string>
+    <string name="toast_ok_addtopic">發帖成功！ </string>
+    <string name="toast_ok_collect">收藏成功！ </string>
+    <string name="toast_ok_comm">評論成功</string>
+    <string name="toast_ok_commit">發布成功！ </string>
+    <string name="toast_ok_editinfo">信息修改成功！ </string>
+    <string name="toast_ok_feedback">意見提交成功！ </string>
+    <string name="toast_ok_focus">關注成功！ </string>
+    <string name="toast_ok_logout">你已成功退出登錄</string>
+    <string name="toast_ok_praise">贊+1</string>
+    <string name="toast_reply">簽到成功！ </string>
+    <string name="toast_sharing">正在準備分享</string>
+    <string name="toast_str_dot_disabled">新動態小圓點已關閉</string>
+    <string name="toast_str_dot_enabled">新動態小圓點已啟用</string>
+    <string name="toast_str_focused">已關注</string>
+    <string name="toast_str_push_disabled">已關閉消息推送</string>
+    <string name="toast_str_push_enabled">已啟用消息推送</string>
+    <string name="toast_str_unfocused">移除關注</string>
+    <string name="toast_str_useage">使用方法</string>
+    <string name="toast_ver_none">沒有檢測到新版本</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="use_login_button">請改用“登錄”按鈕</string>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.ljmob.com</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本過低或未安裝微信，需要安裝微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">應用授權</string>
+    <string name="weibo_upload_content">分享圖片</string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/strings.xml -->
+    <eat-comment/>
+    <string name="welcome_0">　　這裡有全面的香港購物、美食、及時優惠與折扣信息，並導入地圖定位，為您鎖定商戶地點。 </string>
+    <string name="welcome_1">　　讓所有熱衷於到香港遊玩、購物、美食的旅客們共同擁有一個分享交流的平台。 </string>
+    <string name="welcome_2">　　歡迎加入“角落”,幫助您更好地感受香港氣息，體驗香港人文生活。 </string>
+    <!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/values-zh-rtw/ssdk_strings.xml -->
+    <eat-comment/>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="whatsapp_client_inavailable">目前您的WhatsApp版本過低或未安裝，需要安裝WhatsApp才能使用</string>
+    <string name="yixin">易信</string>
+    <string name="yixin_client_inavailable">目前您的易信版本過低或未安裝，需要安裝易信才能使用</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="youdao">有道云筆記</string>
+</resources>

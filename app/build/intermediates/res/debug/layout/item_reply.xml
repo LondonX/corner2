@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 只在个人中心显示linearitem_reply_tvTime -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearitem_reply_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/linearitem_reply_tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="#33B5E5"
+        android:layout_toLeftOf="@+id/linearitem_reply_imgReply"
+        android:text="@string/replace_reply" />
+
+    <TextView
+        android:id="@+id/linearitem_reply_tvTime"
+        style="@style/CornerView.TextView.Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearitem_reply_tvContent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/linearitem_reply_imgReply"
+        android:gravity="right"
+        android:text="@string/test_time_ago" />
+
+    <ImageView
+        android:id="@+id/linearitem_reply_imgReply"
+        android:layout_width="24dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/linearitem_reply_tvTime"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/linearitem_reply_tvContent"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/selector_btn_default"
+        android:clickable="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_comm_blue" />
+
+</RelativeLayout><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/layout/item_reply.xml -->

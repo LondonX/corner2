@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listhead_topics_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/listhead_topics_root0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:divider="?android:attr/listDivider"
+        android:orientation="vertical"
+        android:layout_marginBottom="8dp"
+        android:translationZ="2dp"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:id="@+id/activity_topics_rlFitShop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_btn_default"
+            android:clickable="true"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/activity_topics_textFitShop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/str_topic_read"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/activity_topics_tvMore"
+                style="@style/CornerView.TextView.Medium.LightGray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_more_read"/>
+
+            <ImageView
+                android:id="@+id/activity_topics_imgMore"
+                android:layout_width="12dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/img_arrow_right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_topics_linearNewTopics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/activity_topics_linearNewTopic0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/activity_topics_tvTitle0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:singleLine="true"
+                    android:text="@string/test_long"
+                    android:textSize="14sp"/>
+
+                <ImageView
+                    android:id="@+id/activity_topics_imgPic0"
+                    android:layout_width="match_parent"
+                    android:layout_height="96dp"
+                    android:background="@color/img_default"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_topics_linearNewTopic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/activity_topics_tvTitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:singleLine="true"
+                    android:text="@string/test_long"
+                    android:textSize="14sp"/>
+
+                <ImageView
+                    android:id="@+id/activity_topics_imgPic1"
+                    android:layout_width="match_parent"
+                    android:layout_height="96dp"
+                    android:background="@color/img_default"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

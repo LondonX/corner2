@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_share"
+        app:actionProviderClass="com.ljmob.corner.actionprovider.MyShareActionProvider"
+        android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_share"/>
+    <item
+        android:id="@+id/menu_collect"
+        android:icon="@drawable/ic_menu_star_empty"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_collect"/>
+    <item
+        android:id="@+id/menu_collect_cancel"
+        android:icon="@drawable/ic_menu_star"
+        app:showAsAction="ifRoom"
+        app:title="@string/menu_collect_cancel"
+        android:visible="false"/>
+
+</menu><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/menu/menu_share_collect.xml -->

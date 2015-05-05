@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_selected="true"><bitmap android:src="@drawable/tab_indicator_selected" />
+    </item>
+    <item android:state_enabled="false"><bitmap android:src="@drawable/tab_indicator_selected" />
+    </item>
+    <item android:state_enabled="true"><color android:color="@android:color/transparent" />
+    </item>
+
+</selector><!-- From: file:/C:/Users/LondonX/Documents/workspace/corner2/app/src/main/res/drawable/selector_tab_indicator.xml -->

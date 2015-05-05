@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_reads_root"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".ReadActivity">
+
+    <include layout="@layout/toolbar_root"/>
+
+    <com.ljmob.corner.view.CustomListView
+        android:id="@+id/activity_reads_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:listSelector="@android:color/transparent"
+        tools:listitem="@layout/item_topics"/>
+
+</LinearLayout><!-- From: file:/C:/Users/LondonX/Documents/workspace/corner2/app/src/main/res/layout/activity_reads.xml -->

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listitem_relation_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp" >
+
+    <ImageView
+        android:id="@+id/listitem_relation_imgHead"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/selector_btn_default"
+        android:src="@drawable/img_head_default" />
+
+    <TextView
+        android:id="@+id/listitem_relation_tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/listitem_relation_imgHead"
+        android:maxWidth="120dp"
+        android:singleLine="true"
+        android:text="@string/test_long"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/listitem_relation_imgSex"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/listitem_relation_tvName"
+        android:layout_alignTop="@+id/listitem_relation_tvName"
+        android:layout_marginRight="8dp"
+        android:layout_toRightOf="@+id/listitem_relation_tvName"
+        android:src="@drawable/img_sex_femal" />
+
+    <TextView
+        android:id="@+id/listitem_relation_tvLv"
+        style="@style/CornerView.TextView.Small.DarkGray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/listitem_relation_tvName"
+        android:layout_toRightOf="@+id/listitem_relation_imgSex"
+        android:text="@string/replace_lv" />
+
+    <TextView
+        android:id="@+id/listitem_relation_tvSign"
+        style="@style/CornerView.TextView.Small.DarkGray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/listitem_relation_imgHead"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/listitem_relation_btnOption"
+        android:layout_toRightOf="@+id/listitem_relation_imgHead"
+        android:singleLine="true"
+        android:text="@string/test_long" />
+
+    <ImageButton
+        android:id="@+id/listitem_relation_btnOption"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/img_delete" />
+
+</RelativeLayout><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/layout/item_relation.xml -->

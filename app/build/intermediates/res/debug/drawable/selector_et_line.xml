@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true"><nine-patch android:src="@drawable/img_et_focused" />
+    </item>
+    <item android:state_enabled="true"><nine-patch android:src="@drawable/img_et_default" />
+    </item>
+
+</selector><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/drawable/selector_et_line.xml -->

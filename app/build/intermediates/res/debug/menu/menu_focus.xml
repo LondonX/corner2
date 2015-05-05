@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_focus"
+        android:icon="@drawable/ic_menu_add"
+        app:showAsAction="always"
+        android:title="@string/str_focus">
+    </item>
+    <item
+        android:id="@+id/menu_focus_cancel"
+        android:icon="@drawable/ic_menu_del"
+        app:showAsAction="always"
+        android:title="@string/str_focus_cancel"
+        android:visible="false">
+    </item>
+
+</menu><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/menu/menu_focus.xml -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_root"
+    android:layout_width="match_parent"
+    android:background="?attr/colorPrimary"
+    app:title="@string/app_name"
+    android:translationZ="@dimen/toolbar_z"
+    app:navigationIcon="@drawable/ic_ab_logo"
+    android:minHeight="?attr/actionBarSize"
+    android:layout_height="wrap_content"/>
+<!-- From: file:/C:/Users/LondonX/Documents/workspace/corner2/app/src/main/res/layout/toolbar_root.xml -->

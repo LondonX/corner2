@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mc_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_root"/>
+
+    <LinearLayout
+        android:id="@+id/activity_mc_linearHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/activity_mc_textFavorable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_comment_others"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/activity_mc_tvCount"
+            style="@style/CornerView.TextView.Small.LightGray"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:text="@string/test_count"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/activity_mc_div0"
+        style="@style/CornerView.Divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+    <ListView
+        android:id="@+id/activity_mc_lvComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:listSelector="@null"
+        tools:listfooter="@layout/foot_shadow"
+        tools:listitem="@layout/item_othercomments">
+    </ListView>
+
+</LinearLayout><!-- From: file:/C:/Users/LondonX/Documents/workspace/corner2/app/src/main/res/layout/activity_morecomments.xml -->

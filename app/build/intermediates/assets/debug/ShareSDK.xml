@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+    <!--
+    	说明：
+    	
+    	1、表格中的第一项
+    		<ShareSDK 
+        		AppKey="api20" />
+    	是必须的，其中的AppKey是您在ShareSDK上注册的开发者帐号的AppKey
+    	
+			新浪微博        http://open.weibo.com
+			腾讯微博        http://dev.t.qq.com
+			QQ空间          http://connect.qq.com/intro/login/
+			微信好友        http://open.weixin.qq.com
+			Facebook       https://developers.facebook.com
+			Twitter        https://dev.twitter.com
+			人人网          http://dev.renren.com
+			开心网          http://open.kaixin001.com
+			搜狐微博        http://open.t.sohu.com
+			网易微博        http://open.t.163.com
+			豆瓣           http://developers.douban.com
+			
+			有道云笔记      http://note.youdao.com/open/developguide.html#app
+			印象笔记        https://dev.evernote.com/
+			Linkedin       https://developer.linkedin.com
+			FourSquare     https://developer.foursquare.com/
+			搜狐随身看      https://open.sohu.com/
+			Flickr         http://www.flickr.com/services/
+			Pinterest      http://developers.pinterest.com/
+			Tumblr         http://www.tumblr.com/developers
+			Dropbox        https://www.dropbox.com/developers
+			Instagram      http://instagram.com/developer#
+			VKontakte      http://vk.com/dev
+			易信好友        http://open.yixin.im/
+			明道	           http://open.mingdao.com/
+			Line           http://media.line.me/zh-hant/
+			Pocket         http://getpocket.com/developer/apps/new
+    -->
+    
+    <ShareSDK 
+        AppKey = "617b0a51a888"/> <!-- 修改成你在sharesdk后台注册的应用的appkey"-->
+    
+    <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
+    <SinaWeibo
+        Id="1"
+        SortId="1"
+        AppKey="1800247658"
+        AppSecret="8e72b7e33986de5453e11c274f22eba4"
+        RedirectUrl="http://lafina.cn"
+        ShareByAppClient="true"
+        Enable="true" />
+
+    <QQ
+        Id="2"
+        SortId="2"
+        AppId="1103099345"
+        AppKey="mBtgYquTzmhnN2Gl"
+        ShareByAppClient="true"
+        Enable="true" />
+    <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
+    <QZone
+        Id="3"
+        SortId="3"
+        AppId="1103099345"
+        AppKey="mBtgYquTzmhnN2Gl"
+        ShareByAppClient="true"
+        Enable="true" />
+    
+    <Wechat
+        Id="4"
+        SortId="4"
+        AppId="wxa1c1e973ffce39de"
+        AppSecret="c7d4397aab7fc0727129c7dd56372054"
+        BypassApproval="false"
+        Enable="true" />
+    
+    <WechatMoments
+        Id="5"
+        SortId="5"
+        AppId="wxa1c1e973ffce39de"
+        AppSecret="c7d4397aab7fc0727129c7dd56372054"
+        BypassApproval="false"
+        Enable="true" />
+</DevInfor>

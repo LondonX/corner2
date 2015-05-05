@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_map_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_root"/>
+
+    <LinearLayout
+        android:id="@+id/activity_map_linearTabs"
+        android:layout_width="match_parent"
+        android:translationZ="@dimen/toolbar_z"
+        android:background="@color/gray_tab"
+        android:layout_height="@dimen/tabs_height"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/activity_map_rlTab0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/activity_map_tvTab0"
+                style="@style/CornerView.FrameLayout.TextViewTab.Ex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/str_cato"/>
+
+            <ImageView
+                android:id="@+id/activity_map_imgTab0"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="14dp"
+                android:src="@drawable/tab_ex_indicator_default"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_map_rlTab1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/activity_map_tvTab1"
+                style="@style/CornerView.FrameLayout.TextViewTab.Ex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="false"
+                android:text="@string/str_consult"/>
+
+            <ImageView
+                android:id="@+id/activity_map_imgTab1"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="14dp"
+                android:src="@drawable/tab_ex_indicator_default"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_map_rlTab2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/activity_map_tvTab2"
+                style="@style/CornerView.FrameLayout.TextViewTab.Ex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/str_sort"/>
+
+            <ImageView
+                android:id="@+id/activity_map_imgTab2"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="14dp"
+                android:src="@drawable/tab_ex_indicator_default"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.ljmob.corner.view.CustomListView
+        android:id="@+id/activity_map_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:scrollbarThumbVertical="@drawable/shape_scrollbar"
+        android:layout_below="@+id/activity_map_linearTabs"
+        tools:listitem="@layout/item_shop_simple">
+    </com.ljmob.corner.view.CustomListView>
+
+</LinearLayout>

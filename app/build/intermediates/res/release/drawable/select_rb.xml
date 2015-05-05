@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="false"><bitmap android:src="@drawable/img_rb_default" />
+    </item>
+    <item android:state_checked="true"><bitmap android:src="@drawable/img_rb_selected" />
+    </item>
+
+</selector><!-- From: file:/C:/Users/LondonX/Documents/workspace/corner2/app/src/main/res/drawable/select_rb.xml -->

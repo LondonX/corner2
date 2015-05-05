@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <include layout="@layout/toolbar_root"/>
+
+    <com.ljmob.corner.view.CustomListView
+        android:id="@+id/activity_fitshop_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_fitshop">
+    </com.ljmob.corner.view.CustomListView>
+</LinearLayout>

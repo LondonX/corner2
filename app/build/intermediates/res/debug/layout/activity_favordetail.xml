@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fd_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".FavorDetailActivity">
+
+    <include layout="@layout/toolbar_root"/>
+
+    <com.ljmob.corner.view.CustomListView
+        android:id="@+id/activity_fd_lv"
+        android:layout_below="@+id/toolbar_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@drawable/shape_scrollbar"
+        android:listSelector="@drawable/selector_btn_default"
+        tools:listheader="@layout/head_favordetail"
+        tools:listitem="@layout/item_fitshop"/>
+
+</RelativeLayout><!-- From: file:/Users/london/Documents/WorkSpace/corner2/app/src/main/res/layout/activity_favordetail.xml -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="img_default" type="color">@color/gray_div</item>
+
+    <!--<item name="red" type="color">#795548</item>-->
+    <!--<item name="red_dark" type="color">#5D4037</item>-->
+    <!--<item name="red_tab" type="color">#3E2723</item>-->
+    <!--<item name="red_alpha" type="color">#44795548</item>-->
+    <item name="red" type="color">#B93221</item>
+    <item name="red_dark" type="color">#892418</item>
+    <item name="red_tab" type="color">#ff6f1d13</item>
+    <item name="red_alpha" type="color">#44B93221</item>
+
+    <item name="black" type="color">#000000</item>
+    <!-- 灰色 -->
+    <item name="gray_light" type="color">#9D9D9D</item>
+    <item name="gray_dark" type="color">#5A5A5A</item>
+    <item name="gray_div" type="color">#ffdcdcdc</item>
+    <item name="gray_tab" type="color">#ffF8F8F8</item>
+
+</resources>

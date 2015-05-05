@@ -1,0 +1,225 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red_dark</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:itemTextAppearance">@style/CornerActionBar.Menu.Text</item>
+        <item name="colorAccent">@color/red_dark</item>
+    </style>
+
+    <style name="CornerActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@color/red</item>
+        <item name="android:titleTextStyle">@style/CornerActionBar.Title</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.Holo.ListPopupWindow</item>
+        <item name="android:icon">@drawable/ic_ab_logo</item>
+        <item name="android:displayOptions">useLogo|showTitle</item>
+    </style>
+
+    <style name="CornerActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:ellipsize">none</item>
+    </style>
+
+    <style name="CornerActionBar.Overflow" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_overflow</item>
+    </style>
+
+    <style name="CornerActionBar.TabText" parent="@android:style/TextAppearance.Holo">
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="CornerActionBar.TabBar" parent="@android:style/Widget.Holo.ActionBar.TabBar">
+        <item name="android:background">@drawable/selector_tab_indicator</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CornerActionBar.Menu.Text" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="CornerView.Button.Blue" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/selector_btn_blue</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CornerView.Button.Red" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/selector_btn_red</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CornerView.Button.Option" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/selector_btn_option</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CornerView.Button.Small.Blue" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/selector_btn_blue</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CornerView.Divider" parent="@android:style/Widget">
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/gray_div</item>
+        <item name="android:anyDensity">true</item>
+    </style>
+
+    <style name="CornerView.Divider.gap" parent="@android:style/Widget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/img_shadow_und</item>
+    </style>
+
+    <style name="CornerView.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/selector_et_bg</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="CornerView.EditText.White" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/selector_et_bg_white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="CornerView.EditText.Line" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/selector_et_line</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="CornerView.EditText.Translate" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/selector_et_bg_translate</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="CornerView.EditText.Translate.Rect" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/selector_et_rect_trans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="CornerView.FrameLayout.card" parent="@android:style/Widget">
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="CornerView.FrameLayout.Flag" parent="@android:style/Widget">
+        <item name="android:background">@drawable/selector_flag</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="CornerView.FrameLayout.TextViewTab" parent="@android:style/Widget">
+        <item name="android:background">@drawable/selector_tab_indicator</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="CornerView.FrameLayout.TextViewTab.Ex" parent="@android:style/Widget">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="CornerView.GridView" parent="@android:style/Widget.GridView">
+        <item name="android:horizontalSpacing">4dp</item>
+        <item name="android:listSelector">@drawable/selector_btn_default</item>
+        <item name="android:numColumns">4</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:verticalSpacing">16dp</item>
+    </style>
+
+    <style name="CornerView.Layout.Clickable" parent="@android:style/Widget">
+        <item name="android:background">@drawable/selector_btn_default</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="CornerView.ListLinear" parent="@android:style/Widget.RatingBar">
+        <item name="android:showDividers">middle</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:divider">?android:attr/listDivider</item>
+    </style>
+
+    <style name="CornerView.Ratingbar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/layer_ratingbar</item>
+        <item name="android:stepSize">1.0</item>
+    </style>
+
+    <style name="CornerView.Ratingbar.Large" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/layer_ratingbar_large</item>
+        <item name="android:stepSize">1.0</item>
+    </style>
+
+    <style name="CornerView.TextView.Tab" parent="@android:style/Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="CornerView.TextView.Time" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray_light</item>
+    </style>
+
+    <style name="CornerView.TextView.Small.LightGray" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray_light</item>
+    </style>
+
+    <style name="CornerView.TextView.Small.DarkGray" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gray_dark</item>
+    </style>
+
+    <style name="CornerView.TextView.Medium.LightGray" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray_light</item>
+    </style>
+
+    <style name="CornerView.TextView.Medium.DarkGray.Readable" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray_dark</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <style name="CornerView.TextView.Medium.Readable" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <style name="CornerTransActivity" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+    </style>
+
+    <style name="CornerAnim.Activity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/open_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/open_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/close_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/close_out</item>
+    </style>
+
+
+</resources>
