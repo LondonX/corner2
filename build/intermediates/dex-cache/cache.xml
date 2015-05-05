@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\AMap_Services_V2.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e6ea761689ecf84f0ba3f55be702a277a827d801">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\AMap_Services_V2.2.1-e49456a72402d0cf466945513d7cb618d100d8f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\com.umeng.message.lib.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b49b8bd2c7cd38c561f8bfc4f1d9ace302f13fa8">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\com.umeng.message.lib-8035ce6de0fb6ccbb46ff64e552c389b02899330.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\classes-6b5bdb42677c616bbefbf5e706c1998c39564c6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\ShareSDK-SinaWeibo-2.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="77a667d1b80d95c286d1a92bee2690c7e8f1f001">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\ShareSDK-SinaWeibo-2.5.9-73d08be1779b94bef4c32fad28d17569d2cfc8c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\ShareSDK-QZone-2.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aebfa8c34e3681ff6edf4d9a11164270f9fd0c">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\ShareSDK-QZone-2.5.9-9660a2ee4199e3b89202ba1ea473ecebd25557f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\ShareSDK-Wechat-Favorite-2.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b262cb4e3d6a95eaf6ea464ba8c8c9800003fda9">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\ShareSDK-Wechat-Favorite-2.5.9-04999be04c33d1db441001569fcb3bc8f22a8fad.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\mframework.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="25509058b34a5ee08dbf66e57078e3083735d200">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\mframework-3004174a5979c02085c93e25745707399d64c04d.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\classes-4e13911f2009eef822ee73b744508385181f0d89.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\gson-2.3-2d17b7d0d43ecd3c38030314a4798bf93f48f67e.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\Android_Location_V1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c6aa98ac072ad580875266ae2a2effd9e64e0861">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\Android_Location_V1.1.2-b3beda6bebcdd3416f4cb8892e1a5e00df75cf4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\ShareSDK-Wechat-2.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="db556d17b758b41b1a0fd084e60e1ac6657a7486">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\ShareSDK-Wechat-2.5.9-796e33958b056c5ac5891315334348e35c316827.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\internal_impl-21.0.3-3c4d5dcdbc838552b5d27e44c695c190d924c37c.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\ShareSDK-Wechat-Core-2.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb0cd1cf28af913aea75ee8a26640e059501388b">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\ShareSDK-Wechat-Core-2.5.9-e1a5f76a0864819959e63175d79593469da1e51e.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\httpmime-4.1.3-3d4d6587f5414d6c6487e15bf8481050c6e061e3.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\ShareSDK-QQ-2.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e2b40429dc201649d57dc0e615af0740a4005fb4">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\ShareSDK-QQ-2.5.9-98f05115307803db3ced628f648f3d80fde3a017.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\ShareSDK-Wechat-Moments-2.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8f0d907301d20b3ad7e61e88ead5b34f8dd68ea8">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\ShareSDK-Wechat-Moments-2.5.9-fed8867d0e6fbc1a48d389a19fcff7b81b5b1a0f.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\ShareSDK-Core-2.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1fde3c1b2ff5e009f98fb65437a299a659ed25d4">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\ShareSDK-Core-2.5.9-ce44e80f9479dbb3ebfc5c0f67627c978fec94f7.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\MapApiSearch.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="52531b46e038bc0af9d1bd2f319ef83b6ee603be">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\MapApiSearch-be40e1ca8c997b9c992ed7f019cf7840ca08fc6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\exploded-aar\com.afollestad\material-dialogs\0.5.9\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ee1d58bedb13522371472f7a0bb51f948eb154c">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\classes-9d6ab0592c76ecf17a92df794bba64ca8cdcd05f.jar" />
+    </item>
+    <item
+        jar="C:\Users\LondonX\Documents\workspace\corner2\app\libs\AMap_2DMap_V2.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cd23fecf32eb3848eefacf23bc9e479a462d578f">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\AMap_2DMap_V2.2.1-8df44225d0265d17c0813ca57749c3128b7a280d.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\android_sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\LondonX\Documents\workspace\corner2\app\build\intermediates\pre-dexed\release\support-annotations-21.0.3-9d300fa2a642ee28723340355e2f7ec59f2b00b9.jar" />
+    </item>
+
+</items>

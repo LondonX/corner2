@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tencent.connect.common.AssistActivity"/>
+      <point      
+        x = "500"      
+        y = "4140"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        xmlResourceName = "menu_map_mode"/>
+      <point      
+        x = "2080"      
+        y = "2120"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.tencent.tauth.AuthActivity"/>
+      <point      
+        x = "550"      
+        y = "4190"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "OthersUserInfoActivity"/>
+      <point      
+        x = "600"      
+        y = "4240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "MainActivity"/>
+      <point      
+        x = "650"      
+        y = "4290"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "UserActivity"/>
+      <point      
+        x = "700"      
+        y = "4340"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.ljmob.corner.wxapi.WXEntryActivity"/>
+      <point      
+        x = "750"      
+        y = "4390"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        xmlResourceName = "menu_focus"/>
+      <point      
+        x = "2080"      
+        y = "160"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "FirstRunActivity"/>
+      <point      
+        x = "800"      
+        y = "4440"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "MapActivity"/>
+      <point      
+        x = "850"      
+        y = "4490"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "MoreCommentsActivity"/>
+      <point      
+        x = "900"      
+        y = "4540"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "CollectActivity"/>
+      <point      
+        x = "950"      
+        y = "4590"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "LoginActivity"/>
+      <point      
+        x = "1000"      
+        y = "4640"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "MsgActivity"/>
+      <point      
+        x = "1050"      
+        y = "4690"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "FeedbackActivity"/>
+      <point      
+        x = "1100"      
+        y = "4740"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "FocusActivity"/>
+      <point      
+        x = "1150"      
+        y = "4790"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.ljmob.corner.ReadTopicActivity"/>
+      <point      
+        x = "500"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "AddTopicActivity"/>
+      <point      
+        x = "1200"      
+        y = "4840"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "SearchActivity"/>
+      <point      
+        x = "1250"      
+        y = "4890"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ReadActivity"/>
+      <point      
+        x = "1300"      
+        y = "4940"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "FitShopActivity"/>
+      <point      
+        x = "1350"      
+        y = "4990"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.lanjing.galleryView.ImageGalleryActivity"/>
+      <point      
+        x = "1400"      
+        y = "5040"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ShopActivity"/>
+      <point      
+        x = "1450"      
+        y = "5090"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "EditInfoActivity"/>
+      <point      
+        x = "1500"      
+        y = "5140"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "RelationActivity"/>
+      <point      
+        x = "1550"      
+        y = "5190"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.ljmob.corner.amap.MainMapActivity"/>
+      <point      
+        x = "500"      
+        y = "2120"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "FavorDetailActivity"/>
+      <point      
+        x = "1600"      
+        y = "5240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "SettingsActivity"/>
+      <point      
+        x = "1650"      
+        y = "5290"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
